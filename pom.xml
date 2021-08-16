@@ -27,10 +27,10 @@ SOFTWARE.
   <parent>
     <groupId>com.artipie</groupId>
     <artifactId>ppom</artifactId>
-    <version>0.4.3</version>
+    <version>0.5.1</version>
   </parent>
   <artifactId>composer-adapter</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
   <name>composer-files</name>
   <description>Turns your files/objects into PHP Composer artifacts</description>
@@ -64,6 +64,7 @@ SOFTWARE.
     <connection>scm:git:git@github.com:artipie/composer-adapter.git</connection>
     <developerConnection>scm:git:git@github.com:artipie/composer-adapter.git</developerConnection>
     <url>https://github.com/artipie/composer-adapter</url>
+    <tag>composer-adapter-1.0</tag>
   </scm>
   <ciManagement>
     <system>rultor</system>
@@ -75,6 +76,9 @@ SOFTWARE.
       <url>https://github.com/artipie/composer-adapter</url>
     </site>
   </distributionManagement>
+  <properties>
+    <qulice.license>${project.basedir}/LICENSE.header</qulice.license>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>com.google.guava</groupId>
@@ -83,7 +87,7 @@ SOFTWARE.
     <dependency>
       <groupId>com.artipie</groupId>
       <artifactId>asto</artifactId>
-      <version>0.34</version>
+      <version>v1.3.4</version>
     </dependency>
     <dependency>
       <groupId>javax.json</groupId>
@@ -92,17 +96,17 @@ SOFTWARE.
     <dependency>
       <groupId>com.artipie</groupId>
       <artifactId>http</artifactId>
-      <version>0.17.7</version>
+      <version>v0.19</version>
     </dependency>
     <dependency>
       <groupId>com.artipie</groupId>
       <artifactId>http-client</artifactId>
-      <version>0.3.5</version>
+      <version>0.3.6</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-compress</artifactId>
-      <version>1.20</version>
+      <version>1.21</version>
     </dependency>
     <!-- Test scope -->
     <dependency>
@@ -149,7 +153,7 @@ SOFTWARE.
     <dependency>
       <groupId>com.artipie</groupId>
       <artifactId>files-adapter</artifactId>
-      <version>0.5</version>
+      <version>0.7</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -161,13 +165,13 @@ SOFTWARE.
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>testcontainers</artifactId>
-      <version>1.15.2</version>
+      <version>1.16.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>junit-jupiter</artifactId>
-      <version>1.15.2</version>
+      <version>1.16.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
