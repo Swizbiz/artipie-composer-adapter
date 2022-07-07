@@ -1,25 +1,20 @@
-<img src="https://www.artipie.com/logo.svg" width="64px" height="64px"/>
+<a href="http://artipie.com"><img src="https://www.artipie.com/logo.svg" width="64px" height="64px"/></a>
+
+[![Join our Telegramm group](https://img.shields.io/badge/Join%20us-Telegram-blue?&logo=telegram&?link=http://right&link=http://t.me/artipie)](http://t.me/artipie)
 
 [![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
 [![DevOps By Rultor.com](http://www.rultor.com/b/artipie/composer-adapter)](http://www.rultor.com/p/artipie/composer-adapter)
 [![We recommend IntelliJ IDEA](https://www.elegantobjects.org/intellij-idea.svg)](https://www.jetbrains.com/idea/)
 
-[![Build Status](https://img.shields.io/travis/artipie/composer-adapter/master.svg)](https://travis-ci.org/artipie/composer-adapter)
 [![Javadoc](http://www.javadoc.io/badge/com.artipie/composer-adapter.svg)](http://www.javadoc.io/doc/com.artipie/composer-adapter)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/artipie/composer-adapter/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/artipie/composer-adapter/blob/master/LICENSE.txt)
+[![codecov](https://codecov.io/gh/artipie/composer-adapter/branch/master/graph/badge.svg)](https://codecov.io/gh/artipie/composer-adapter)
 [![Hits-of-Code](https://hitsofcode.com/github/artipie/composer-adapter)](https://hitsofcode.com/view/github/artipie/composer-adapter)
 [![Maven Central](https://img.shields.io/maven-central/v/com.artipie/composer-adapter.svg)](https://maven-badges.herokuapp.com/maven-central/com.artipie/composer-adapter)
 [![PDD status](http://www.0pdd.com/svg?name=artipie/composer-adapter)](http://www.0pdd.com/p?name=artipie/composer-adapter)
 
 This Java library turns your binary [ASTO](https://github.com/artipie/asto) 
 storage into a PHP Composer repository.
-
-Similar solutions:
-
-  * [Packagist](https://packagist.org/)
-  * [Packagist Private](https://packagist.com/)
-  * [Satis](https://github.com/composer/satis)
-  * [Artifactory](https://www.jfrog.com/confluence/display/RTF/PHP+Composer+Repositories)
 
 Some valuable references:
 
@@ -68,6 +63,10 @@ Packages packages = repo.packages(new Name("vendor/package"));
 
 Read the [Javadoc](http://www.javadoc.io/doc/com.artipie/composer-adapter)
 for more technical details.
+
+If you have any question or suggestions, do not hesitate to [create an issue](https://github.com/artipie/composer-adapter/issues/new) or contact us in
+[Telegram](https://t.me/artipie).  
+Artipie [roadmap](https://github.com/orgs/artipie/projects/3).
 
 ## Project status
 
@@ -160,6 +159,8 @@ The only [required](https://getcomposer.org/doc/05-repositories.md#packages) fie
 So, information about a specific version of package is obtained from remote source by specifying url.
 
 ## How to contribute
+
+Please read [contributing rules](https://github.com/artipie/artipie/blob/master/CONTRIBUTING.md).
 
 Fork repository, make changes, send us a pull request. We will review
 your changes and apply them to the `master` branch shortly, provided
